@@ -1,6 +1,6 @@
 require('dotenv').config(); //allows to inject fake env vars
-const PORT = process.env.PORT || 5000;
-// const { PORT } = require('./comfig');
+// const PORT = process.env.PORT || 5000;
+const { PORT } = require('./config');
 
 const express = require('express');
 const cors = require('cors');
